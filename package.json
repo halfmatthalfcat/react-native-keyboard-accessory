@@ -1,6 +1,6 @@
 {
   "name": "@halfmatthalfcat/react-native-keyboard-accessory",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "A React Native Keyboard Accessory (View, Navigation) Component. Sticky views on keyboard.",
   "contributors": [
     {
