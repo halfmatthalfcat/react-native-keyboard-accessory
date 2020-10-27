@@ -1,11 +1,17 @@
 {
-  "name": "react-native-keyboard-accessory",
+  "name": "@halfmatthalfcat/react-native-keyboard-accessory",
   "version": "0.1.13",
   "description": "A React Native Keyboard Accessory (View, Navigation) Component. Sticky views on keyboard.",
-  "author": {
-    "name": "Arda Oğulcan Pektaş",
-    "email": "ardaogulcan@gmail.com"
-  },
+  "contributors": [
+    {
+      "name": "Arda Oğulcan Pektaş",
+      "email": "ardaogulcan@gmail.com"
+    },
+    {
+      "name": "Matt Oliver",
+      "email": "mjo2089@gmail.com"
+    }
+  ],
   "scripts": {
     "start": "npm run build && node scripts/setup-example && cd example && npm install && npm start",
     "build": "node scripts/build"

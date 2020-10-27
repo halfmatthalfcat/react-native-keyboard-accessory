@@ -17,13 +17,13 @@ https://snack.expo.io/@ardaogulcan/react-native-keyboard-accessory-playground
 Via npm:
 
 ```shell
-npm install react-native-keyboard-accessory --save
+npm install @halfmatthalfcat/react-native-keyboard-accessory --save
 ```
 
 Via Yarn:
 
 ```shell
-yarn add react-native-keyboard-accessory
+yarn add @halfmatthalfcat/react-native-keyboard-accessory
 ```
 
 ## Usage
