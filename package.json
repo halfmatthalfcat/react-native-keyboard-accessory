@@ -18,12 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ardaogulcan/react-native-keyboard-accessory.git"
+    "url": "git+https://github.com/halfmatthalfcat/react-native-keyboard-accessory.git"
   },
   "bugs": {
-    "url": "https://github.com/ardaogulcan/react-native-keyboard-accessory/issues"
+    "url": "https://github.com/halfmatthalfcat/react-native-keyboard-accessory/issues"
   },
-  "homepage": "https://github.com/ardaogulcan/react-native-keyboard-accessory",
+  "homepage": "https://github.com/halfmatthalfcat/react-native-keyboard-accessory",
   "keywords": [
     "react",
     "react-native",
