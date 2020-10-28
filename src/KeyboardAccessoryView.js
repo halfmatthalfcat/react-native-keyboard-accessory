@@ -157,7 +157,8 @@ class KeyboardAccessoryView extends Component {
     const visibleHeight =
       accessoryHeight
       + (avoidKeyboard ? keyboardHeight : 0)
-      - (isKeyboardVisible ? bumperHeight + (applySafeArea ? 20 : 0) : 0);
+      - (isKeyboardVisible ? bumperHeight + (applySafeArea ? 20 : 0) : 0)
+      + (isKeyboardVisible ? Platform.select({ android: 10, default: 0 }) : 0);
     const isChildRenderProp = typeof children === "function";
 
     return (
