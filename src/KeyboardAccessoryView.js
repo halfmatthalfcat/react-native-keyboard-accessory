@@ -59,8 +59,8 @@ class KeyboardAccessoryView extends Component {
     const keyboardShowEvent = Platform.OS === 'ios' ? 'keyboardWillShow' : 'keyboardDidShow';
     const keyboardHideEvent = Platform.OS === 'ios' ? 'keyboardWillHide' : 'keyboardDidHide';
 
-    this.keyboardShowEventListener = Keyboard.addListener(keyboardShowEvent, this.handleKeyboardShow);
-    this.keyboardHideEventListener = Keyboard.addListener(keyboardHideEvent, this.handleKeyboardHide);
+    this.keyboardShowEventListener = Keyboard.addEventListener(keyboardShowEvent, this.handleKeyboardShow);
+    this.keyboardHideEventListener = Keyboard.addEventListener(keyboardHideEvent, this.handleKeyboardHide);
   }
 
   componentWillUnmount() {

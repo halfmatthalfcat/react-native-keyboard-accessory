@@ -1,8 +1,7 @@
 const fs = require('fs-extra');
 
-fs.removeSync('./build');
-fs.copySync('./src', './build');
-fs.copySync('./package.json', './build/package.json');
-fs.copySync('./README.md', './build/README.md');
-fs.copySync('./LICENSE', './build/LICENSE');
-fs.copySync('./index.d.ts', './build/index.d.ts');
+fs.removeSync('./dist');
+fs.copySync('./package.json', './dist/package.json');
+fs.copySync('./README.md', './dist/README.md');
+fs.copySync('./LICENSE', './dist/LICENSE');
+fs.copySync('./index.d.ts', './dist/index.d.ts');

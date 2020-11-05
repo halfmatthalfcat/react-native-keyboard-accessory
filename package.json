@@ -1,6 +1,6 @@
 {
   "name": "@halfmatthalfcat/react-native-keyboard-accessory",
-  "version": "0.1.15",
+  "version": "0.2.0",
   "description": "A React Native Keyboard Accessory (View, Navigation) Component. Sticky views on keyboard.",
   "contributors": [
     {
@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "start": "npm run build && node scripts/setup-example && cd example && npm install && npm start",
-    "build": "node scripts/build"
+    "build": "node scripts/build && babel src --out-dir dist"
   },
   "repository": {
     "type": "git",
@@ -48,6 +48,11 @@
     "react-native": ">= 0.46"
   },
   "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
     "fs-extra": "^6.0.1"
   }
 }
